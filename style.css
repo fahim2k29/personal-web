@@ -1,13 +1,17 @@
 body{
-    font-family: 'Poppins', ;
+    margin: 0;
+    font-family: 'Poppins' ;
 }
 p{
     color: dimgray;
 }
 .red-highlight{
     color: deeppink;
-    font-size: 35px;
+    font-size: 50px;
     font-weight: bolder;
+}
+#top{
+margin-top: 120px;
 }
 .half-width{
     width: 40%;
@@ -35,7 +39,8 @@ section{
     padding: 8px 25px;
     border-radius: 5px;
     color: white;
-    font-weight: 500;
+    font-weight: 700;
+    
 }
 .link-button:hover{
     font-size: 40px;
@@ -44,6 +49,9 @@ section{
     background-repeat: no-repeat;
     background-image: url(images/biography-bg.png);
     background-size: 100%;
+}
+#middle{
+    margin-top: 120px;
 }
 .work{
     text-align: center;
@@ -58,7 +66,6 @@ section{
 .one-third-width img{
     width: 100%;
 }
-
 
 .latest-work{
     background-repeat: no-repeat;
@@ -83,7 +90,7 @@ section{
 }
 .contact:hover{
     background-color: greenyellow;
-    font-size: 30px;
+    font-size: 20px;
 }
 .media{
     height: 100px;
